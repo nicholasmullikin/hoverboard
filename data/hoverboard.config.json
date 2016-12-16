@@ -64,10 +64,6 @@
       "permalink": "/"
     },
     {
-      "route": "blog",
-      "permalink": "/blog/"
-    },
-    {
       "route": "schedule",
       "permalink": "/schedule/"
     },
@@ -86,15 +82,11 @@
     "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
   },
   "partnershipProposition": "http://bit.ly/df16-sponsor",
-  "disqusShortName": "hoverboard-gdg-x",
+  "disqusShortName": "hacktrin",
   "languages": [
     {
       "name": "English",
       "key": "en"
-    },
-    {
-      "name": "Українська",
-      "key": "uk"
     }
   ],
   "footerBlocks": [
@@ -108,26 +100,6 @@
         {
           "text": "cod",
           "url": "/cod/"
-        },
-        {
-          "text": "google-developers",
-          "url": "https://developers.google.com/",
-          "newTab": true
-        },
-        {
-          "text": "df-13",
-          "url": "http://gdg-devfest-ua.appspot.com/",
-          "newTab": true
-        },
-        {
-          "text": "df-14",
-          "url": "http://devfest.gdg.org.ua/2014/",
-          "newTab": true
-        },
-        {
-          "text": "df-15",
-          "url": "http://devfest.gdg.org.ua/2015/",
-          "newTab": true
         }
       ]
     },
@@ -138,11 +110,6 @@
           "text": "partnership-proposition",
           "url": "http://bit.ly/df16-sponsor",
           "newTab": true
-        },
-        {
-          "text": "media-kit",
-          "url": "http://bit.ly/df16-media",
-          "newTab": true
         }
       ]
     }
@@ -150,8 +117,8 @@
   "contactBlock": {
     "links": [
       {
-        "text": "devfest@google.com",
-        "url": "mailto:devfest@google.com"
+        "text": "nicholas.mullikin17@trinityschoolnyc.org",
+        "url": "mailto:nicholas.mullikin17@trinityschoolnyc.org"
       }
     ]
   },
@@ -160,8 +127,8 @@
     "elements": [
       {
         "name": "student-ticket",
-        "price": 0,
-        "currency": "$",
+        "price": "Free",
+        "currency": "",
         "starts": "student-ticket-starts",
         "ends": "student-ticket-ends",
         "info": "student-ticket-info",
@@ -193,19 +160,9 @@
       "url": "https://twitter.com/HackTrin"
     },
     {
-      "name": "gplus",
-      "nickname": "102444623953913144164",
-      "url": "https://plus.google.com/102444623953913144164"
-    },
-    {
       "name": "facebook",
       "nickname": "hacktrin",
       "url": "https://www.facebook.com/hacktrin/"
-    },
-    {
-      "name": "linkedin",
-      "nickname": "google-developers-group-lviv",
-      "url": "https://www.linkedin.com/company/google-developers-group-lviv"
     }
   ],
   "tweetsSource": "/data/tweets.json",

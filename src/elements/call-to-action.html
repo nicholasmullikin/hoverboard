@@ -47,7 +47,7 @@
 
     <div class="container container-narrow">
       <h4 class="heading">[[localize(app.data.callToAction.videoTitle)]]</h4>
-      <paper-button class="open-dialog-button" on-tap="playVideo">[[localize('action')]]</paper-button>
+      <paper-button class="open-dialog-button" on-tap="link">[[localize('action')]]</paper-button>
     </div>
 
   </template>
@@ -65,9 +65,11 @@
         ],
 
         playVideo: function () {
-          HOVERBOARD.Elements.Template.openVideo(this.localize(this.app.data.callToAction.videoTitle),
-            this.app.data.callToAction.videoId, true);
-        }
+           window.open('2015','_blank');
+        },
+		link: function(){
+			window.open("http://hacktrin.weebly.com/");
+		}
 
       });
 
